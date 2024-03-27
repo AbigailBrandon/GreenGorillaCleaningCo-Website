@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!-- Tailwind link -->
+      <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+      <!-- CSS link -->
+      <link rel="stylesheet" href="styles.css">
+
+      <!-- Boxicons link -->
+      <link rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+      <!-- Remixicons link -->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+      <!-- Google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Shippori+Antique&display=swap" rel="stylesheet">
+    
+    <title>Green Gorilla Cleaning Company Website</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="logo-text">GGCC</a> 
+  
+      <ul class="navlist">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html" class="active">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+      </ul>
+  
+      <div class="right-nav">
+        <a href="contact.html" class="h-btn">Contact</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </div>
+    </header>
+
+    <!-- Intro -->
+    <section class="container containerpadding justify-center">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="mt-2">
+          <h1 class="fade-in-top">Services tailored to you</h1>
+          <p>Our professional cleaning services are designed for homes, offices, and specialized spaces. From deep cleaning to routine maintenance, we have the expertise and tools to handle it all.</p>
+          <a href="#cleaning-services" class="otherbtn mb-4">Learn More</a>
+        </div>
+        <div class="image-container">
+          <img src="/images/office1.jpg" alt="image of clean office" class="w-full h-auto">
+        </div>
+      </div>
+    </section>
+
+    <!-- What We Offer -->
+    <section class="bg-gray-200" id="cleaning-services">
+      <div class="container mx-auto flex flex-wrap items-center py-12">
+        <div class="text-center">
+          <h2 class="text-green-600 mb-6 servicesfont">Our services are customizable</h2>
+          <p class="px-6">We offer standard and deep cleans. Because we believe in a personal touch, we don’t give quotes until we see your space and walk through it. This allows us to be more accurate and truly understand your individual.</p>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-6">
+            <!-- Commercial Cleaning Card -->
+            <div class="card">
+              <div class="card-img-container">
+                <img src="/images/office2.jpeg" alt="Commercial Cleaning" class="card-img">
+              </div>
+              <div class="card-content">
+                <h4 class="p-3">Commercial Cleaning</h4>
+                <p>Our professional cleaners will keep your space dirt free, so you can focus on your business.</p>
+                <a href="/contact.html">Get a quote</a>
+              </div> 
+            </div>
+            <!-- Residential Cleaning Card -->
+            <div class="card">
+              <div class="card-img-container">
+                <img src="/images/residential.jpg" alt="Residential Cleaning" class="card-img">
+              </div>
+              <div class="card-content">
+                <h4 class="p-3">Residential Cleaning</h4>
+                <p>We know you’re your home is precious. Let us take care of it for you to enjoy. Our team is dedicated to creating the peace that comes from a job well done. A la carte options available. </p>
+                <a href="/contact.html">Get a quote</a>
+              </div>
+            </div>
+            <!-- Specialized Cleaning Services -->
+            <div class="card">
+              <div class="card-img-container">
+                <img src="/images/laundry.jpg" alt="folding laundry" class="card-img">
+              </div>
+              <div class="card-content">
+                <h4 class="p-3">Specialized Cleaning</h4>
+                <p>A la carte options available: vaccuuming vehicle, fold and store laundry, holiday decoration removal, specialized organization of a space, plant care, patio and porch care, and wiping out refrigerator.</p>
+                <a href="/contact.html">Get a quote</a>
+              </div> 
+            </div> 
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ready for a cleaner space -->
+    <section class="text-gray-800 containerpadding" style="background-image: url('/images/cleanphoto7.jpg'); background-size: cover; background-position: center;" alt="cleaning bottle background image">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="font-semibold text-white mb-6">Ready for a Cleaner Space?</h2>
+          <p class="mb-8 text-lg md:text-xl text-center text-white">Reach out to us and let's make your space shine!</p>
+          <a href="/contact.html" class="bg-green-600 text-black py-3 px-6 rounded-full text-lg font-medium hover:bg-green-700 transition-colors">Contact Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Get in Touch -->
+    <section class="bg-gray-100">
+      <div class="container mx-auto flex flex-wrap items-center py-12 px-6">
+        <h2>Contact Us</h2>
+        <p>We're here to answer any questions you have. Reach out to us and we'll respond as soon as we can.</p>
+        <a href="/contact.html" class="otherbtn">Contact us</a>
+      </div>
+    </section>
+
+    <!-- Footer --> 
+    <footer class="footer py-6">
+      <div class=" px-6 mx-auto space-y-6 divide-y divide-gray-400 md:space-y-12 divide-opacity-50">
+        <div class="grid grid-cols-12">
+          <div class="pb-6 col-span-full md:pb-0 md:col-span-6">
+            <a href="index.html" class="flex justify-center space-x-3 md:justify-start">
+              <div class="flex items-center justify-center w-12 h-12 rounded-full "></div>
+              <span class="self-center text-2xl font-semibold">Green Gorilla Cleaning Company</span>
+            </a>
+          </div>
+          <div class="col-span-6 text-center md:text-left md:col-span-3">
+            <p class="pb-1 text-lg font-medium">Services</p>
+            <ul>
+              <li>
+                <a href="services.html" class="footer-hover">Commercial</a>
+              </li>
+              <li>
+                <a href="services.html" class="footer-hover">Residential</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-span-6 text-center md:text-left md:col-span-3">
+            <p class="pb-1 text-lg font-medium"> Menu</p>
+            <ul>
+              <li>
+                <a href="index.html" class="footer-hover">Home</a>
+              </li>
+              <li>
+                <a href="services.html" class="footer-hover">Services</a>
+              </li>
+              <li>
+                <a href="contact.html" class="footer-hover">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="grid justify-center pt-6">
+          <div class="flex flex-col text-sm md:block lg:col-start-1 md:space-x-6 text-center">
+            <span>©2023 Green Gorilla Cleaning Company. All rights reserved</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+      <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+      <!-- JS link -->
+    <script src="script.js"></script>
+
+  </body>
+</html>

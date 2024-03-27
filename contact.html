@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!-- Tailwind link -->
+      <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+      <!-- CSS link -->
+      <link rel="stylesheet" href="styles.css">
+
+      <!-- Boxicons link -->
+      <link rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+      <!-- Remixicons link -->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+      <!-- Google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Shippori+Antique&display=swap" rel="stylesheet">
+
+    <title>Green Gorilla Cleaning Company Website</title>
+  </head>
+  <body>
+
+    <header>
+      <a href="index.html" class="logo-text">GGCC</a>
+      <ul class="navlist">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <div class="right-nav">
+        <a href="contact.html" class="h-btn">Contact</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </div>
+    </header>
+
+    <!-- Intro -->
+    <section class="container containerpadding justify-center">
+      <div class=" grid grid-cols-1 md:grid-cols-2 gap-6 ">
+        <div class="mt-2">
+          <h1 class="fade-in-top">Let's Talk</h1>
+          <p>Contact us via email or phone and include your name, number or email, and the type of service you are inquiring about. I'm looking forward to meeting you!</p>
+
+        <a href="#contact-us" class="main-btnn mb-4">Our contact information</a>
+        </div>
+        <div class="image-container">
+          <img src="/images/laundry-folding.jpg" alt="folding laundry" class="w-full h-auto">
+        </div>
+      </div>
+    </section>
+
+    <!-- Address and Contact Details -->
+    <section class="bg-gray-100" id="contact-us">
+      <div class="container">
+        <h2>Contact us</h2>
+        <div class="contactinfo flex flex-wrap justify-between">
+          <div class="w-full md:w-1/2">
+            <p>Please include your name, number, and what service you are inquiring about.</p>
+            <h4>Green Gorilla Cleaning Company</h4>
+            <p>Serving the Pittsburg, Topeka, and surrounding areas.</p>
+            <p><strong>Phone:</strong> <a class="link" href="tel:+17856086985">(785) 608-6985</a></p>
+            <p><strong>Email:</strong> <a class="link" href="mailto:Emily@ggcleaningco.com">Emily@ggcleaningco.com</a></p>
+          </div>
+          <div class="w-full md:w-1/2">
+            <img src="/images/cleanphoto5.jpg" alt="image of clean office" class="w-full h-auto">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer --> 
+    <footer class="footer py-6">
+      <div class=" px-6 mx-auto space-y-6 divide-y divide-gray-400 md:space-y-12 divide-opacity-50">
+        <div class="grid grid-cols-12">
+          <div class="pb-6 col-span-full md:pb-0 md:col-span-6">
+            <a href="index.html" class="flex justify-center space-x-3 md:justify-start">
+              <div class="flex items-center justify-center w-12 h-12 rounded-full "></div>
+              <span class="self-center text-2xl font-semibold">Green Gorilla Cleaning Company</span>
+            </a>
+          </div>
+          <div class="col-span-6 text-center md:text-left md:col-span-3">
+            <p class="pb-1 text-lg font-medium">Services</p>
+            <ul>
+              <li>
+                <a href="services.html" class="footer-hover">Commercial</a>
+              </li>
+              <li>
+                <a href="services.html" class="footer-hover">Residential</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-span-6 text-center md:text-left md:col-span-3">
+            <p class="pb-1 text-lg font-medium"> Menu</p>
+            <ul>
+              <li>
+                <a href="index.html" class="footer-hover">Home</a>
+              </li>
+              <li>
+                <a href="services.html" class="footer-hover">Services</a>
+              </li>
+              <li>
+                <a href="contact.html" class="footer-hover">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="grid justify-center pt-6">
+          <div class="flex flex-col text-sm md:block lg:col-start-1 md:space-x-6 text-center">
+            <span>©2023 Green Gorilla Cleaning Company. All rights reserved</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- JS link -->
+    <script src="script.js"></script>
+
+  </body>
+</html>
